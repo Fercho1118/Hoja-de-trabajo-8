@@ -1,7 +1,7 @@
 package uvg.edu.gt;
 import java.util.Vector;
 
-public class VectorHeap<E extends Comparable<E>>{
+public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
     private Vector<E> data; 
 
     public VectorHeap() {
